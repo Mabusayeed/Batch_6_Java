@@ -9,6 +9,8 @@ public class ArrayListDemo {
 
     public void ListPractice(){
 
+
+        List<String > students = new ArrayList<>();
         Boolean isEmptyBeforeAdd = students.isEmpty();
         System.out.println("Empty before adding elements "+ isEmptyBeforeAdd);
 
@@ -16,7 +18,7 @@ public class ArrayListDemo {
 
 
 
-        List<String > students = new ArrayList<>();
+
 //        students.add("Terry");
 //        students.add("Marry");
 //        students.add("Sherry");
